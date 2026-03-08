@@ -26,7 +26,7 @@ export default function AddStudent() {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = (data) => {
+  const onSubmit = (data: z.infer<typeof schema>) => {
     console.log(data);
     // In real app, send to backend
     alert("ছাত্র যোগ করা হয়েছে!");

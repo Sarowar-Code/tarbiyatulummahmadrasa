@@ -9,6 +9,7 @@ import {
   Phone,
   Users,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -19,7 +20,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center space-x-3">
-              <img
+              <Image
+                height={50}
+                width={50}
                 src="/logo.jpg"
                 alt="তারবিয়াতুল উম্মাহ মাদ্রাসা"
                 className="h-12 w-12 rounded-lg object-contain"
