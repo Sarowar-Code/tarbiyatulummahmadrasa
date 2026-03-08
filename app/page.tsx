@@ -113,7 +113,9 @@ export default function Home() {
                   মাদ্রাসা ভবন
                 </h3>
                 <div className="aspect-video rounded-lg overflow-hidden shadow-xl">
-                  <img
+                  <Image
+                    height={500}
+                    width={500}
                     src="/heroimage.jpg"
                     alt="তারবিয়াতুল উম্মাহ মাদ্রাসা ভবন"
                     className="w-full h-full object-cover"
